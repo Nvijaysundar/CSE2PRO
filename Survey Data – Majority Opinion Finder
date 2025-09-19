@@ -1,0 +1,49 @@
+Survey Data – Majority Opinion Finder
+
+A company runs a customer surveyacross multiple cities.
+They store responses in a 2D array:
+
+Each row→ a city.
+Each column→ a person’s response in that city.
+Values:
+
+  1 → “Yes”
+  0 → “No”
+
+
+
+ Problem Statement
+
+Given the survey data:
+
+1. Determine the majority opinion in each city(Yes or No).
+2. Find if there exists any city with a tie(equal Yes and No).
+3. Find the city with the strongest agreement(highest difference between Yes and No counts).
+4. Check if the majority opinion is consistent across all cities(i.e., all “Yes” or all “No”).
+
+
+
+ Example
+
+Input (3 cities × 6 people):
+
+
+1 1 0 1 0 1
+0 0 1 1 0 0
+1 1 1 1 1 0
+
+
+Output:
+
+
+City-wise Majority:
+City 1 → Yes (4 vs 2)
+City 2 → No (4 vs 2)
+City 3 → Yes (5 vs 1)
+
+City with a tie: None
+
+Strongest agreement: City 3 (difference = 4)
+
+Majority consistent across all cities: No
+
