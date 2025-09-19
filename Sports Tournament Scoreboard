@@ -1,0 +1,57 @@
+Sports Tournament Scoreboard
+
+A school organizes an inter-school football tournament.
+They maintain a 2D array where:
+
+Each row represents a team.
+Each column represents a match played.
+The value stored is the number of goals scored in that match.
+
+
+ Problem Statement
+
+Using the 2D array:
+
+1. Find if any team remained unbeaten (i.e., scored more goals than the opponent in all their matches).
+
+   Assume if team A’s goals in column j > team B’s goals in the same column, then A won that match.
+2. Check if there exists any match where all teams scored the same number of goals.
+3. Find the team with the highest single-match score (not total, but max in any one match).
+4. Identify teams that never scored more than 2 goals in any match.
+
+
+
+ Example
+
+Input (4 teams × 3 matches):
+
+
+2 1 3
+3 2 1
+1 1 1
+4 0 2
+
+
+Output:
+
+Unbeaten Team: None
+
+Match with equal goals: Match 2 (all scored 1,2,1,0 → No) → None
+
+Highest single-match score: Team 4 with 4 goals
+
+Teams that never scored more than 2 goals: Team 3
+
+
+Example 2:
+
+3 2 4
+1 1 2
+0 2 1
+
+
+Unbeaten Team: Team 1
+Match with equal goals: None
+Highest single-match score: Team 1 with 4 goals
+Teams that never scored more than 2 goals: Team 2, Team 3
+
