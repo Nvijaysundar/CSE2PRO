@@ -1,0 +1,29 @@
+Hospital Patient Data Tracking
+
+A hospital keeps track of patients admitted in different wards using a 2D array:
+
+Each row*represents a ward.
+Each column*represents a day of the week (7 days).
+The value stored is the number of patients admitted that day.
+
+Given an `N x 7` 2D array:
+
+1. Calculate the total number of patients per ward*(row-wise sum).
+2. Find the busiest day of the hospital*(column with maximum total admissions).
+3. Find the ward with the minimum total patients.
+4. Find the average admissions per day across the entire hospital.
+Input (3 wards × 7 days):
+5  8  6  7  9  4  3
+10 12 8  6  7  5  4
+2  3  5  4  6  7  8
+Output:
+Total patients per ward:
+Ward 1 → 42
+Ward 2 → 52
+Ward 3 → 35
+
+Busiest Day: Day 2 (23 patients total)
+
+Ward with minimum patients: Ward 3 (35 patients)
+
+Average admissions per day (entire hospital): 12.61
