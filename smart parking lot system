@@ -1,0 +1,64 @@
+A smart parking lot system stores the layout of cars in a 2D grid (matrix) where:
+
+1 represents a parked car
+0 represents an empty space
+
+The system manager wants to analyze patterns in the parking lot to detect possible illegal parking or crowding issues.
+
+Your task is to solve the following:
+
+1. Input: A N x N 2D array representing the parking lot.
+
+2. Tasks:
+
+   (a) Print the diagonal pattern of the parking lot (main and secondary diagonals) to check if cars are blocking emergency exits.
+   (b) Print the border pattern of the parking lot (only first row, last row, first column, last column) to detect illegal parking at the boundary.
+   (c) Print the "X" pattern (cars on both diagonals) to analyze crossing blockages.
+   (d) Count how many completely filled rows exist (row where all elements are 1).
+
+3. Output: Show the patterns clearly and display the count.
+
+ Example
+
+Input (5x5 matrix):
+
+
+1 0 0 1 1
+0 1 1 0 0
+1 1 0 1 0
+0 0 1 1 1
+1 0 1 0 1
+
+
+Expected Outputs:
+
+Diagonal Pattern:
+
+1 0 0 0 1
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 1 0
+1 0 0 0 1
+
+
+Border Pattern:
+
+
+1 0 0 1 1
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 1
+1 0 1 0 1
+
+
+"X" Pattern:
+
+
+1 0 0 0 1
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 1 0
+1 0 0 0 1
+
+
+ completely filled rows : 0
