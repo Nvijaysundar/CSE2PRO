@@ -1,0 +1,39 @@
+Student Marks Analysis
+
+A school stores students’ marks in different subjects using a 2D array:
+
+Each row represents a student.
+Each column represents a subject.
+
+You are asked to help the school with data analysis
+
+Problem Statement
+
+Given a `N x M` 2D array of marks:
+
+1. Calculate each student’s total marks and display them.
+2. Find the topper student (the one with the highest total marks).
+3. Calculate subject-wise averages (average marks for each column).
+4. Find the student who scored the lowest in Mathematics (say column `0`).
+
+Example
+Input (4 students × 3 subjects):
+70 80 90
+85 60 75
+40 95 65
+88 76 90
+Output:
+Student totals:
+Student 1 → 240
+Student 2 → 220
+Student 3 → 200
+Student 4 → 254
+
+Topper: Student 4 (254 marks)
+
+Subject-wise averages:
+Subject 1 → 70.75
+Subject 2 → 77.75
+Subject 3 → 80.00
+
+Lowest in Mathematics: Student 3 (40 marks)
